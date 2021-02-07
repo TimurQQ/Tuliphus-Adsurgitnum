@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="40" height="40" tilewidth="32" tileheight="32" infinite="0" nextlayerid="5" nextobjectid="83">
+ <tileset firstgid="1" source="desert.tsx"/>
+ <tileset firstgid="49" name="Sewer" tilewidth="24" tileheight="24" tilecount="72" columns="8">
+  <image source="sewer_tileset.png" trans="ff00ff" width="192" height="217"/>
+  <tile id="33">
+   <properties>
+    <property name="tileprop" value="sd"/>
+   </properties>
+  </tile>
+  <tile id="44">
+   <properties>
+    <property name="tileproperty" value="tobeparsed"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="121" source="alien.tsx"/>
+ <tileset firstgid="127" source="alien_1.tsx"/>
+ <tileset firstgid="133" source="alien_2.tsx"/>
+ <tileset firstgid="139" source="alien_3.tsx"/>
+ <tileset firstgid="145" source="lava.tsx"/>
+ <tileset firstgid="289" source="lava11.tsx"/>
+ <tileset firstgid="353" source="lavvv12.tsx"/>
+ <tileset firstgid="485" source="base_cave.tsx"/>
+ <tileset firstgid="486" source="green_base.tsx"/>
+ <tileset firstgid="487" source="red_base.tsx"/>
+ <tileset firstgid="488" source="blue_base.tsx"/>
+ <tileset firstgid="489" source="purple_base.tsx"/>
+ <tileset firstgid="490" source="acid_lakes.tsx"/>
+ <tileset firstgid="506" source="salt_cave.tsx"/>
+ <tileset firstgid="507" source="hunter.tsx"/>
+ <tileset firstgid="513" source="hunter_1.tsx"/>
+ <tileset firstgid="519" source="hunter_2.tsx"/>
+ <tileset firstgid="525" source="hunter_3.tsx"/>
+ <tileset firstgid="531" source="assault.tsx"/>
+ <tileset firstgid="537" source="assault_1.tsx"/>
+ <tileset firstgid="543" source="assault_2.tsx"/>
+ <tileset firstgid="549" source="assault_3.tsx"/>
+ <tileset firstgid="555" source="invader.tsx"/>
+ <tileset firstgid="561" source="invader_1.tsx"/>
+ <tileset firstgid="567" source="invader_2.tsx"/>
+ <tileset firstgid="573" source="invader_3.tsx"/>
+ <layer id="1" name="Ground" width="40" height="40">
+  <properties>
+   <property name="dummy property" value="44"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJztmNtOwkAQhqdygUoiHhLxELBaD4AIPJn3Po3cw0PyN7YpTDbb2bI7rqYXX6DJbPrxz5BOmhDRKCBnoA/OA98n5xt8JvusLPVzg99DQL8pfCaMWRJPfq5+eVbXYABuFPzW4CvZZ1NzBiV0BDrMO4TfLbhz4B6cgFPQU8jvETw5kAX0G1v8nsEUvPyiny2/TJinht9rhH5L5sX9ZvQz/x/Kfnzm+HVdXnwuffiZ/gdjll/5XdJPPgc+8ntj16WPa3687777yz05k6J/Ut49+HULjql6FtnoCOtKhgf69anaL8rfaqMnrDOda+I3oGq/uACXNVwJ60znQs6eNimZ95yYPFNFnya7mYbXvPiU7Ga7z5/M0/2lSPxyp2VRq+m3iNCPz3Vsfk36u/v81vJbOPiZdqGY8jP1OmY/zfya7Gaafv+FNAKHvwLPKuS7wbbHLS36bAFIib0Y
+  </data>
+ </layer>
+ <objectgroup color="#00a49f" id="3" name="Objects">
+  <properties>
+   <property name="dfsd" value="345"/>
+  </properties>
+  <object id="41" name="green_base" type="Base" gid="486" x="1088" y="192" width="128" height="128">
+   <properties>
+    <property name="colony_id" value="0"/>
+    <property name="max_health" value="10000"/>
+   </properties>
+  </object>
+  <object id="42" name="red_base" type="Base" gid="487" x="96" y="180" width="128" height="128">
+   <properties>
+    <property name="colony_id" value="2"/>
+    <property name="max_health" value="10000"/>
+   </properties>
+  </object>
+  <object id="43" name="blue_base" type="Base" gid="488" x="96" y="1152" width="128" height="128">
+   <properties>
+    <property name="colony_id" value="1"/>
+    <property name="max_health" value="10000"/>
+   </properties>
+  </object>
+  <object id="44" name="purple_base" type="Base" gid="489" x="928" y="864" width="128" height="128">
+   <properties>
+    <property name="colony_id" value="3"/>
+    <property name="max_health" value="10000"/>
+   </properties>
+  </object>
+  <object id="50" name="green_lake_1" type="AcidLake" gid="490" x="928" y="319" width="64" height="64">
+   <properties>
+    <property name="max_num_workers" value="4"/>
+    <property name="max_resource_delta" value="12"/>
+    <property name="point_id" value="0"/>
+   </properties>
+  </object>
+  <object id="51" name="green_lake_2" type="AcidLake" gid="490" x="961" y="96" width="64" height="64">
+   <properties>
+    <property name="max_num_workers" value="4"/>
+    <property name="max_resource_delta" value="12"/>
+    <property name="point_id" value="1"/>
+   </properties>
+  </object>
+  <object id="53" name="bastion_lake_1" type="AcidLake" gid="494" x="433" y="304" width="64" height="64">
+   <properties>
+    <property name="max_num_workers" value="4"/>
+    <property name="max_resource_delta" value="12"/>
+    <property name="point_id" value="2"/>
+   </properties>
+  </object>
+  <object id="54" name="blue_lake_2" type="AcidLake" gid="496" x="129" y="863" width="64" height="64">
+   <properties>
+    <property name="max_num_workers" value="4"/>
+    <property name="max_resource_delta" value="12"/>
+    <property name="point_id" value="3"/>
+   </properties>
+  </object>
+  <object id="55" name="blue_lake_1" type="AcidLake" gid="496" x="384" y="992" width="64" height="64">
+   <properties>
+    <property name="max_num_workers" value="4"/>
+    <property name="max_resource_delta" value="12"/>
+    <property name="point_id" value="4"/>
+   </properties>
+  </object>
+  <object id="56" name="red_lake_2" type="AcidLake" gid="498" x="97" y="448" width="64" height="64">
+   <properties>
+    <property name="max_num_workers" value="4"/>
+    <property name="max_resource_delta" value="12"/>
+    <property name="point_id" value="5"/>
+   </properties>
+  </object>
+  <object id="57" name="red_lake_1" type="AcidLake" gid="498" x="577" y="129" width="64" height="64">
+   <properties>
+    <property name="max_num_workers" value="4"/>
+    <property name="max_resource_delta" value="12"/>
+    <property name="point_id" value="6"/>
+   </properties>
+  </object>
+  <object id="58" name="purple_lake_1" type="AcidLake" gid="504" x="961" y="640" width="64" height="64">
+   <properties>
+    <property name="max_num_workers" value="4"/>
+    <property name="max_resource_delta" value="12"/>
+    <property name="point_id" value="7"/>
+   </properties>
+  </object>
+  <object id="59" name="purple_lake_2" type="AcidLake" gid="504" x="577" y="863" width="64" height="64">
+   <properties>
+    <property name="max_num_workers" value="4"/>
+    <property name="max_resource_delta" value="12"/>
+    <property name="point_id" value="8"/>
+   </properties>
+  </object>
+  <object id="61" name="bastion_lake_2" type="AcidLake" gid="494" x="626" y="433" width="64" height="64">
+   <properties>
+    <property name="max_num_workers" value="4"/>
+    <property name="max_resource_delta" value="12"/>
+    <property name="point_id" value="9"/>
+   </properties>
+  </object>
+  <object id="62" name="salt_cave_4" type="SaltCave" gid="506" x="352" y="672" width="64" height="64">
+   <properties>
+    <property name="max_num_workers" value="3"/>
+    <property name="max_resource_delta" value="9"/>
+    <property name="point_id" value="10"/>
+   </properties>
+  </object>
+  <object id="63" name="salt_cave_3" type="SaltCave" gid="506" x="640" y="288" width="64" height="64">
+   <properties>
+    <property name="max_num_workers" value="3"/>
+    <property name="max_resource_delta" value="9"/>
+    <property name="point_id" value="11"/>
+   </properties>
+  </object>
+  <object id="64" name="salt_cave_2" type="SaltCave" gid="506" x="768" y="1120" width="64" height="64">
+   <properties>
+    <property name="max_num_workers" value="3"/>
+    <property name="max_resource_delta" value="9"/>
+    <property name="point_id" value="12"/>
+   </properties>
+  </object>
+  <object id="65" name="salt_cave_1" type="SaltCave" gid="506" x="1152" y="416" width="64" height="64">
+   <properties>
+    <property name="max_num_workers" value="3"/>
+    <property name="max_resource_delta" value="9"/>
+    <property name="point_id" value="13"/>
+   </properties>
+  </object>
+  <object id="81" name="Informer" type="Info" x="12" y="12">
+   <properties>
+    <property name="max_base_id" value="3"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

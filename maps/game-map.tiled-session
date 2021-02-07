@@ -1,0 +1,227 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "desert.tmx",
+    "expandedProjectPaths": [
+        "C:/Users/User/source/repos/VSGameWithSFML"
+    ],
+    "file.lastUsedOpenFilter": "Все файлы (*)",
+    "fileStates": {
+        "B:/VSGame/tmxlite-master/SFMLExample/assets/demo.tmx": {
+            "scale": 0.5,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 426,
+                "y": 272
+            }
+        },
+        "B:/VSGame/tmxlite-master/SFMLExample/assets/demo.tmx#tileset": {
+            "scaleInDock": 1
+        },
+        "C:/Users/User/source/repos/VSGameWithSFML/beach_tileset.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "C:/Users/User/source/repos/VSGameWithSFML/default-map.tmx": {
+            "scale": 1,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 306.5,
+                "y": 387
+            }
+        },
+        "C:/Users/User/source/repos/VSGameWithSFML/tmw_desert_spacing.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "C:/Users/User/source/repos/VSGameWithSFML/twm_desert_spacing.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "acid_lakes.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "acid_test.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "alien.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "alien_1.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "alien_2.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "alien_3.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "assault.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "assault_1.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "assault_2.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "assault_3.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "base_cave.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "blue_base.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "desert.tmx": {
+            "scale": 0.5,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 1021,
+                "y": 350
+            }
+        },
+        "desert.tmx#Sewer": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "desert.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1
+        },
+        "dream_lava.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "fdfhhf.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "ggfdg.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "green_base.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "gu.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "hunter.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "hunter_1.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "hunter_2.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "hunter_3.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "invader.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "invader_1.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "invader_2.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "invader_3.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "lava.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "lava11.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "lava_tileset.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "lava_tileset_1.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "lavvv12.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "purple_base.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "red_base.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "salt_cave.tsx": {
+            "scaleInDock": 1
+        },
+        "xdd.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        }
+    },
+    "map.height": 10,
+    "map.lastUsedFormat": "tmx",
+    "map.width": 10,
+    "openFiles": [
+        "desert.tmx"
+    ],
+    "project": "game-map.tiled-project",
+    "recentFiles": [
+        "desert.tmx",
+        "hunter_2.tsx",
+        "hunter_3.tsx",
+        "hunter_1.tsx",
+        "hunter.tsx",
+        "assault_1.tsx",
+        "invader_3.tsx",
+        "invader_2.tsx",
+        "invader_1.tsx",
+        "invader.tsx",
+        "assault_3.tsx",
+        "assault_2.tsx"
+    ],
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.margin": 0,
+    "tileset.spacing": 0,
+    "tileset.tileSize": {
+        "height": 16,
+        "width": 16
+    }
+}
